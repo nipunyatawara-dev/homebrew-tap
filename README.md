@@ -1,18 +1,24 @@
-# Nipunyatawara-dev Tap
+# Homebrew Tap for Nipun Yatawara
 
-## How do I install these formulae?
+Homebrew formulae and casks by [nipunyatawara-dev](https://github.com/nipunyatawara-dev).
 
-`brew install nipunyatawara-dev/tap/<formula>`
+## Available Casks
 
-Or `brew tap nipunyatawara-dev/tap` and then `brew install <formula>`.
+### HiDPI Toggle
+Menu bar app for controlling external display HiDPI scaling, resolution, and refresh rate on Apple Silicon Macs.
 
-Or, in a `brew bundle` `Brewfile`:
+```bash
+brew install --cask nipunyatawara-dev/tap/hidpi-toggle
+```
 
-```ruby
-tap "nipunyatawara-dev/tap"
-brew "<formula>"
+Or:
+
+```bash
+brew tap nipunyatawara-dev/tap
+brew install --cask hidpi-toggle
 ```
 
 ## Documentation
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- [HiDPI-Toggle Repository](https://github.com/nipunyatawara-dev/HiDPI-Toggle)
+- [Homebrew Documentation](https://docs.brew.sh)
