@@ -1,6 +1,6 @@
 cask "netcollect" do
   version "1.0.0"
-  sha256 "afbe19a2ea84cf4f37bcde81b16ded1db6a7727b711ec92461b9a690ad9c4050"
+  sha256 "c382ed29352452e2141538e5271870da7300129d1e21d4dab9f5f01fc2254311"
 
   url "https://github.com/nipunyatawara-dev/NetCollect/releases/download/v#{version}/NetCollect-v#{version}.dmg"
   name "NetCollect"
