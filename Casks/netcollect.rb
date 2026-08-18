@@ -2,14 +2,13 @@ cask "netcollect" do
   version "1.0.0"
   sha256 "6428849c6cd2de0d28b5b605774983a9541d22f693c3443eb30867413406a9e1"
 
-  url "https://github.com/nipunyatawara-dev/homebrew-tap/releases/download/netcollect-v#{version}/NetCollect-v#{version}.dmg"
+  url "https://github.com/nipunyatawara-dev/NetCollect/releases/download/v#{version}/NetCollect-v#{version}.dmg"
   name "NetCollect"
   desc "Network monitor for tracking per-application data usage"
   homepage "https://github.com/nipunyatawara-dev/NetCollect"
 
   livecheck do
     url :url
-    regex(/^netcollect-v?(\d+(?:\.\d+)+)$/i)
     strategy :github_latest
   end
 
