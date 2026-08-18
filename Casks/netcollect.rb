@@ -1,8 +1,8 @@
 cask "netcollect" do
-  version "1.0.0"
-  sha256 "14b1abe4514edcdf25637061e6b6b2f39ff5927c358ff3cca604078ad6937a22"
+  version "1.0.0,2"
+  sha256 "8be2e1470c69542416361b5ae8ea9afc6c69caa32c39828c864060e499052e9b"
 
-  url "https://github.com/nipunyatawara-dev/NetCollect/releases/download/v#{version}/NetCollect-v#{version}.dmg"
+  url "https://github.com/nipunyatawara-dev/NetCollect/releases/download/v#{version.csv.first}/NetCollect-v#{version.csv.first}.dmg"
   name "NetCollect"
   desc "Network monitor for tracking per-application data usage"
   homepage "https://github.com/nipunyatawara-dev/NetCollect"
