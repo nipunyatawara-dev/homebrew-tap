@@ -32,8 +32,23 @@ brew tap nipunyatawara-dev/tap
 brew install --cask hidpi-toggle
 ```
 
+### OmniSync
+Desktop workspace hub and Git collaboration dashboard for local and GitHub-backed repositories.
+
+```bash
+brew install --cask nipunyatawara-dev/tap/omnisync
+```
+
+Or:
+
+```bash
+brew tap nipunyatawara-dev/tap
+brew install --cask omnisync
+```
+
 ## Documentation
 
+- [OmniSync Repository](https://github.com/nipunyatawara-dev/OmniSync)
 - [NetCollect Repository](https://github.com/nipunyatawara-dev/NetCollect)
 - [HiDPI-Toggle Repository](https://github.com/nipunyatawara-dev/HiDPI-Toggle)
 - [Homebrew Documentation](https://docs.brew.sh)
