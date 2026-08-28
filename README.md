@@ -46,8 +46,23 @@ brew tap nipunyatawara-dev/tap
 brew install --cask omnisync
 ```
 
+### Burrow
+A native macOS interface for the open-source Mole system maintenance CLI.
+
+```bash
+brew install --cask nipunyatawara-dev/tap/burrow
+```
+
+Or:
+
+```bash
+brew tap nipunyatawara-dev/tap
+brew install --cask burrow
+```
+
 ## Documentation
 
+- [Burrow Repository](https://github.com/nipunyatawara-dev/Burrow)
 - [OmniSync Repository](https://github.com/nipunyatawara-dev/OmniSync)
 - [NetCollect Repository](https://github.com/nipunyatawara-dev/NetCollect)
 - [HiDPI-Toggle Repository](https://github.com/nipunyatawara-dev/HiDPI-Toggle)
