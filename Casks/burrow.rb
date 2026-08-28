@@ -2,8 +2,8 @@ cask "burrow" do
   arch arm: "arm64", intel: "x86_64"
 
   version "1.0"
-  sha256 arm:   "778b602c34cc695dcf9e348e1f03251ff55d2094cdd4cee65e9f7c1e44504a83",
-         intel: "ee047955f7fc297ad3bc024910c0ed1b52bc4c176c316cd0a14c0f7a6db9cec0"
+  sha256 arm:   "36c3e44d204c260ff2c79209b793df2b460c8dd917e14f120d0156d4a6b4c7c8",
+         intel: "0b8f000b23d3dc06e263cdf0669305994e05c05ff9f368c10990f10b5aa3d288"
 
   url "https://github.com/nipunyatawara-dev/Burrow/releases/download/v#{version}/Burrow-#{version}-#{arch}.dmg"
   name "Burrow"
