@@ -4,6 +4,20 @@ Homebrew formulae and casks by [nipunyatawara-dev](https://github.com/nipunyataw
 
 ## Available Casks
 
+### NothingX Desktop
+Lightweight menu bar controls for Nothing and CMF headphones.
+
+```bash
+brew install --cask nipunyatawara-dev/tap/nothingx-desktop
+```
+
+Or:
+
+```bash
+brew tap nipunyatawara-dev/tap
+brew install --cask nothingx-desktop
+```
+
 ### NetCollect
 A native macOS network monitor for tracking per-application data usage across day, week, month, and all-time timeframes.
 
@@ -62,6 +76,7 @@ brew install --cask burrow
 
 ## Documentation
 
+- [NothingX Desktop Repository](https://github.com/nipunyatawara-dev/NothingX-Desktop)
 - [Burrow Repository](https://github.com/nipunyatawara-dev/Burrow)
 - [OmniSync Repository](https://github.com/nipunyatawara-dev/OmniSync)
 - [NetCollect Repository](https://github.com/nipunyatawara-dev/NetCollect)
